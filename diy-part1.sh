@@ -19,7 +19,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.defa
 echo 'src-git homeproxy https://github.com/heymanmillionaire/openwrt-homeproxy >> feeds.conf.default
 
 # Install openclash
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash openwrt/package/luci-app-openclash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 # mkdir openwrt/package/luci-app-openclash
 # cd openwrt/package/luci-app-openclash
 # git init
