@@ -33,7 +33,7 @@ svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/l
 # popd 
 
 # Install Helloworld
-echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default 
+# echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default 
 # rm -rf package/helloworld
 # git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # git -C package/helloworld pull
@@ -41,4 +41,8 @@ echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.defa
           
 # Install homeproxy
 echo "src-git homeproxy https://github.com/muink/luci-app-homeproxy" >> feeds.conf.default
+
+# Install mihomo
+echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
+
         
