@@ -40,12 +40,8 @@ echo 'src-git homeproxy https://github.com/heymanmillionaire/openwrt-homeproxy >
 # rm -rf package/helloworld
           
 # Install homeproxy
-echo "src-git homeproxy https://github.com/muink/luci-app-homeproxy" >> feeds.conf.default
+# echo "src-git homeproxy https://github.com/muink/luci-app-homeproxy" >> feeds.conf.default
 
 # Install mihomo
 echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
-cat >> .config <<EOF
-CONFIG_DEFAULT_luci-app-mihomo
-EOF
-
         
